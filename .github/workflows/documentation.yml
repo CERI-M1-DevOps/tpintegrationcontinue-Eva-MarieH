@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run documentation
-        run: mvn -B javadoc::javadoc
+        run: mvn -B javadoc:javadoc
       - name: Build documentation
         uses: peaceiris/actions-gh-pages@v4
         with:
