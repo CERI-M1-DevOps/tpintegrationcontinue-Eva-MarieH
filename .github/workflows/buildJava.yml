@@ -17,7 +17,7 @@ jobs:
           distribution: 'corretto'
           java-version: '21'
           cache: 'maven'
-          cache-dependency-path: 'sub-project/pom.xml'
+          cache-dependency-path: 'tpintegrationcontinue-Eva-MarieH/pom.xml'
       - name: Cache SonarQube packages
         uses: actions/cache@v1
         with:
